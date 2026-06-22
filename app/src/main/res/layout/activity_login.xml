@@ -5,7 +5,6 @@
     xmlns:tools="http://tools.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFF9F1"
     android:padding="24dp"
     tools:context=".LoginActivity">
 
@@ -69,7 +68,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"
-            android:text="kel5"
             android:textColor="#3E2723"
             android:textSize="16sp" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -100,7 +98,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
-            android:text="123"
             android:textColor="#3E2723"
             android:textSize="16sp" />
     </com.google.android.material.textfield.TextInputLayout>
