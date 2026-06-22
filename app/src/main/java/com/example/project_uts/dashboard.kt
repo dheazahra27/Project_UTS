@@ -14,7 +14,7 @@ class DashboardActivity : AppCompatActivity() {
         setContentView(R.layout.activity_dashboard)
 
         val recyclerView =
-            findViewById<RecyclerView>(R.id.recyclerView)
+            findViewById<RecyclerView>(R.id.recyclerview)
 
         recyclerView.layoutManager =
             LinearLayoutManager(this)
