@@ -5,12 +5,14 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
 import com.google.android.material.textfield.TextInputEditText
 
 class LoginActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        delegate.localNightMode = AppCompatDelegate.MODE_NIGHT_NO
         setContentView(R.layout.activity_login)
 
         supportActionBar?.hide()
